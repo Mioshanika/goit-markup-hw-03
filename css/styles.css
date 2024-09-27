@@ -1,0 +1,125 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+a { text-decoration: none; }
+ul { list-style-type: none; }
+
+.container {
+    max-width: 100%;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.headr-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.headrspan {
+    color: #2e2f42;
+}
+.navlink {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #2e2f42;
+}
+.navlink:hover,
+.navlink:focus {
+    color: #404bbf;
+}
+.contact-us {
+    font-style: normal;
+}
+.contactlink {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    font-style: normal;
+    color: #434455;
+}
+.contactlink:hover,
+.contactlink:focus {
+    color: #404bbf;
+}
+.sectn-motto {
+    background-color: #2e2f42;
+}
+.order-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #404bbf;
+}
+.sectn-team {
+    background-color: #f4f4fd;
+}
+.team-cards-li {
+    background-color: #fff;
+}
+.details {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+}
+.hdrone {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: .02em;
+    text-align: center;
+    color: #fff;
+}
+.hdrtwo {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: .02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.hdrthree {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    color: #2e2f42;
+}
+.footr {
+    background-color: #2e2f42;
+}
+.footr-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footrspan {
+    color: #f4f4fd;
+}
+.footr-note {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #f4f4fd;
+}

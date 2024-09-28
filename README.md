@@ -1,2 +1,3 @@
 # goit-markup-hw-03
-html/css homework three
+
+study project, html/css homework three

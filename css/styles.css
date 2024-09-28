@@ -12,6 +12,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+ul li { list-style-type: none; }
 img { display: block; }
 
 .container {
@@ -23,8 +24,9 @@ img { display: block; }
 }
 .headr { border-bottom: 1px solid #e7e9fc; }
 .headr-box {
-    width: 1158px;
+    margin: 0;
     padding: 0 15px;
+    width: 1158px;
     display: flex;
 }
 .headr-nav {
@@ -104,17 +106,15 @@ img { display: block; }
     padding: 120px 0;
 }
 .visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
     position: absolute;
     width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
     white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 .princpl-cards { display: flex; }
 .princpl-card {
